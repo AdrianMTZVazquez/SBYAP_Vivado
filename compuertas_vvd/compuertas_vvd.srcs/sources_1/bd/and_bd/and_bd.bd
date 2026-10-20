@@ -1,0 +1,113 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xBAA6A7DCBAA6A7DC",
+      "device": "xc7a200tfbg676-2",
+      "gen_directory": "../../../../compuertas_vvd.gen/sources_1/bd/and_bd",
+      "name": "and_bd",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2026.1"
+    },
+    "design_tree": {
+      "and_dsg_0": "",
+      "and_dsg_1": ""
+    },
+    "ports": {
+      "a_0": {
+        "direction": "I"
+      },
+      "b_0": {
+        "direction": "I"
+      },
+      "b_1": {
+        "direction": "I"
+      },
+      "y_0": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "and_dsg_0": {
+        "vlnv": "xilinx.com:module_ref:and_dsg:1.0",
+        "ip_revision": "1",
+        "xci_name": "and_bd_and_dsg_0_0",
+        "xci_path": "ip/and_bd_and_dsg_0_0/and_bd_and_dsg_0_0.xci",
+        "inst_hier_path": "and_dsg_0",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "and_dsg",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I"
+          },
+          "y": {
+            "direction": "O"
+          }
+        }
+      },
+      "and_dsg_1": {
+        "vlnv": "xilinx.com:module_ref:and_dsg:1.0",
+        "ip_revision": "1",
+        "xci_name": "and_bd_and_dsg_0_1",
+        "xci_path": "ip/and_bd_and_dsg_0_1/and_bd_and_dsg_0_1.xci",
+        "inst_hier_path": "and_dsg_1",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "and_dsg",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I"
+          },
+          "y": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "a_0_1": {
+        "ports": [
+          "a_0",
+          "and_dsg_0/a"
+        ]
+      },
+      "and_dsg_0_y": {
+        "ports": [
+          "and_dsg_0/y",
+          "and_dsg_1/a"
+        ]
+      },
+      "and_dsg_1_y": {
+        "ports": [
+          "and_dsg_1/y",
+          "y_0"
+        ]
+      },
+      "b_0_1": {
+        "ports": [
+          "b_0",
+          "and_dsg_0/b"
+        ]
+      },
+      "b_1_1": {
+        "ports": [
+          "b_1",
+          "and_dsg_1/b"
+        ]
+      }
+    }
+  }
+}

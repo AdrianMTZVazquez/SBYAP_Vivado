@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Thu Oct  8 16:08:39 2026
+# Process ID         : 3948536
+# Current directory  : /home/labperception/compuertas_vvd/compuertas_vvd.runs/nand_bd_synth_1
+# Command line       : vivado -log nand_bd.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source nand_bd.tcl
+# Log file           : /home/labperception/compuertas_vvd/compuertas_vvd.runs/nand_bd_synth_1/nand_bd.vds
+# Journal file       : /home/labperception/compuertas_vvd/compuertas_vvd.runs/nand_bd_synth_1/vivado.jou
+# Running On         : labperception-ciiccte
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.5 LTS
+# Processor Detail   : AMD Ryzen 5 5600G with Radeon Graphics
+# CPU Frequency      : 3900.032 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 49764 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 58354 MB
+# Available Virtual  : 43223 MB
+#-----------------------------------------------------------
+source nand_bd.tcl -notrace

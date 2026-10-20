@@ -1,0 +1,102 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x8AE24F258AE24F25",
+      "device": "xc7a200tfbg676-2",
+      "gen_directory": "../../../../compuertas_vvd.gen/sources_1/bd/nand_bd",
+      "name": "nand_bd",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Singular",
+      "tool_version": "2026.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "and_dsg_0": "",
+      "not_dsg_0": ""
+    },
+    "ports": {
+      "a_0": {
+        "direction": "I"
+      },
+      "b_0": {
+        "direction": "I"
+      },
+      "y_0": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "and_dsg_0": {
+        "vlnv": "xilinx.com:module_ref:and_dsg:1.0",
+        "ip_revision": "1",
+        "xci_name": "nand_bd_and_dsg_0_0",
+        "xci_path": "ip/nand_bd_and_dsg_0_0/nand_bd_and_dsg_0_0.xci",
+        "inst_hier_path": "and_dsg_0",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "and_dsg",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I"
+          },
+          "y": {
+            "direction": "O"
+          }
+        }
+      },
+      "not_dsg_0": {
+        "vlnv": "xilinx.com:module_ref:not_dsg:1.0",
+        "ip_revision": "1",
+        "xci_name": "nand_bd_not_dsg_0_0",
+        "xci_path": "ip/nand_bd_not_dsg_0_0/nand_bd_not_dsg_0_0.xci",
+        "inst_hier_path": "not_dsg_0",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "not_dsg",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "y": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "a_0_1": {
+        "ports": [
+          "a_0",
+          "and_dsg_0/a"
+        ]
+      },
+      "and_dsg_0_y": {
+        "ports": [
+          "and_dsg_0/y",
+          "not_dsg_0/a"
+        ]
+      },
+      "b_0_1": {
+        "ports": [
+          "b_0",
+          "and_dsg_0/b"
+        ]
+      },
+      "not_dsg_0_y": {
+        "ports": [
+          "not_dsg_0/y",
+          "y_0"
+        ]
+      }
+    }
+  }
+}

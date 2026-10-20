@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_nand_dsg_behav/xsimk -simmode gui -wdb tb_nand_dsg_behav.wdb -simrunnum 0 -socket 59717
+Design successfully loaded
+Design Loading Memory Usage: 207344 KB (Peak: 209196 KB)
+Design Loading CPU Usage: 910 ms
+Simulation completed
+Simulation Memory Usage: 354616 KB (Peak: 420152 KB)
+Simulation CPU Usage: 1080 ms

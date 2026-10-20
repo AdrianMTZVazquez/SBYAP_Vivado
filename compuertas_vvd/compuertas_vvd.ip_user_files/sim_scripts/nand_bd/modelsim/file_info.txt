@@ -1,0 +1,3 @@
+nand_bd_and_dsg_0_0.vhd,vhdl,xil_defaultlib,../../../bd/nand_bd/ip/nand_bd_and_dsg_0_0/sim/nand_bd_and_dsg_0_0.vhd,incdir="../../../../../../../opt/Xilinx/2026.1/data/rsb/busdef"
+nand_bd_not_dsg_0_0.vhd,vhdl,xil_defaultlib,../../../bd/nand_bd/ip/nand_bd_not_dsg_0_0/sim/nand_bd_not_dsg_0_0.vhd,incdir="../../../../../../../opt/Xilinx/2026.1/data/rsb/busdef"
+nand_bd.vhd,vhdl,xil_defaultlib,../../../bd/nand_bd/sim/nand_bd.vhd,incdir="../../../../../../../opt/Xilinx/2026.1/data/rsb/busdef"
