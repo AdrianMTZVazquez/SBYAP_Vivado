@@ -1,0 +1,48 @@
+# ===== Vivado =====
+# Se versionan solo el .xpr y los fuentes (*.srcs: HDL, .bd, .xdc, testbenches, .xci).
+# Todo lo demás lo regenera Vivado.
+
+# Directorios generados por proyecto
+*.cache/
+*.gen/
+*.runs/
+*.sim/
+*.hw/
+*.ip_user_files/
+*.Xil/
+.Xil/
+
+# Logs, journals y reportes
+*.jou
+*.log
+*.str
+*.backup.*
+vivado_pid*.str
+vivado_pid*.zip
+webtalk*
+usage_statistics_webtalk.*
+
+# Simulación (xsim)
+xsim.dir/
+*.wdb
+*.pb
+*.wcfg.bak
+
+# Salidas de implementación (si se generan fuera de .runs)
+*.dcp
+*.bit
+*.bin
+*.mcs
+*.ltx
+
+# Vitis / SDK
+.metadata/
+*.sdk/
+_ide/
+RemoteSystemsTempFiles/
+
+# Sistema / editores
+.DS_Store
+*~
+*.swp
+.vscode/

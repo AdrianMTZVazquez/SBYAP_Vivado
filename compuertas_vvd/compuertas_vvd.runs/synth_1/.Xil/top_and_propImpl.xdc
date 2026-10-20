@@ -1,7 +1,0 @@
-set_property SRC_FILE_INFO {cfile:/home/labperception/compuertas_vvd/compuertas_vvd.srcs/constrs_1/new/pins.xdc rfile:../../../compuertas_vvd.srcs/constrs_1/new/pins.xdc id:1} [current_design]
-set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict {PACKAGE_PIN M15 IOSTANDARD LVCMOS33} [get_ports key1]
-set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict {PACKAGE_PIN M14 IOSTANDARD LVCMOS33} [get_ports key2]
-set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict {PACKAGE_PIN J14 IOSTANDARD LVCMOS33} [get_ports led1]
