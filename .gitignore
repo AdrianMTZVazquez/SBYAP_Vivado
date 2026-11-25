@@ -46,3 +46,6 @@ RemoteSystemsTempFiles/
 *~
 *.swp
 .vscode/
+
+# Salidas de game_of_life/scripts/run_sim.sh
+sim_out/
